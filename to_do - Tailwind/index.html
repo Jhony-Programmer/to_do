@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body class="m-8 font-semibold">
+    <header class="bg-blue-900 rounded-lg flex items-center">
+        <div class='pl-2'>
+            <p id='caixa-alta' class="py-1 text-xl">Um passo de cada vez</p>
+            <h1>Seu caminho, suas conquistas</h1>
+            <p class="py-1 max-w-[95%] text-sm">Organize o que importa e transforme pequenas ações em grandes seviços</p>
+        </div>
+        <div class='bg-blue-950 max-w-[30%] max-h-[80px] text-center rounded-lg mx-5'>
+            <p class="px-4">Progresso</p>
+            <p>---%</p>
+        </div>
+    </header>
+
+    <main>
+        <section id="progresso-pessoal">
+            <h2 class='text-xl'>Panorama de subida</h2>
+            <p>caminho concluído. Celebre a sua constância</p>
+            <p>Elementos de conquista</p>
+        </section>
+
+        <section>
+            <h2>Minha Lista de tarefas</h2>
+            <form action="/pesquisa" method="GET">
+                <input type="search" name="query" placeholder="Pesquisar">
+                <button type="submit">Pesquisar</button>
+            </form>
+        </section>
+
+        <section> 
+            <ul>
+                <li>
+                    <img src="assets/icon de correto.png" alt="">
+                    <p>Refatorar o codigo do projeto</p>
+                    <img src="assets/icon de lixeira.png" alt="">
+                </li>
+            </ul>
+        </section>
+    </main>
+        <script src="script.js"></script>
+</body>
+</html>
